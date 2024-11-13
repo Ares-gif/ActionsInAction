@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   MyFirstJob:
-    runs-on:  ubuntu-latest
+    runs-on: windows-latest
     steps:
       - run: echo "👋 Hello World!"
       
